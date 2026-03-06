@@ -6,6 +6,65 @@ body {
     /* alinha e dimenciona os itens */
     justify-content: center;
     align-items: center;
-    flex-direction: column;
-    /* se conecta com diplay e define para qual direção vai */
+    /* flex-direction: column; */
+    /* se conecta com diplay e define para qual direção vai , nesse caso coluna centralizada*/
+    margin: 0;
+}
+
+.login-containe {
+    text-align: center;
+    width: 350px;
+}
+
+.logo-main {
+    /* ajusta o tamanho da logo */
+    width: 100px;
+    margin-bottom: 10px;
+}
+
+.titulo-axis {
+    font-size: 2rem;
+    color: #2e2a85;
+    margin-bottom: 30px;
+    letter-spacing: 2px;
+}
+
+.titulo-axis span {
+    font-weight: 300;
+    color: #8e7cc3;
+}
+
+.flex-buttons {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.btn-primary {
+    flex: 1;
+    background-color: #6c5ce7;
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.btn-login {
+    background-color: #5d3fd3;
+    color: white;
+    width: 100%;
+    padding: 15px;
+    border: none;
+    border-radius: 30px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.footer-text{
+    margin-top: 15px;
+    color: #4834d4;
+    font-size: 14px;
 }
