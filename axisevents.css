@@ -6,21 +6,25 @@ body {
     /* alinha e dimenciona os itens */
     justify-content: center;
     align-items: center;
-    /* flex-direction: column; */
+    flex-direction: column;
     /* se conecta com diplay e define para qual direção vai , nesse caso coluna centralizada*/
     margin: 0;
 }
 
-.login-containe {
+.area_1 {
     text-align: center;
     width: 350px;
 }
 
-.logo-main {
-    /* ajusta o tamanho da logo */
+.area_2 {
+    text-align: left;
+    width: 350px;
+}
+
+/* .logo-main {
     width: 100px;
     margin-bottom: 10px;
-}
+} */
 
 .titulo-axis {
     font-size: 2rem;
